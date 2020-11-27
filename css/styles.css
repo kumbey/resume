@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 90px;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+
+}
+
+h2 {
+  color: #66BFBF;
+  margin-top: 20px;
+  font-family: 'Montserrat', cursive;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  margin-top: 0;
+  font-family: 'Montserrat', cursive;
+}
+p {
+
+}
+table{
+
+}
+th, td {
+  padding: 10px;
+}
+
+a{
+  color: #11999E;
+}
+span{
+
+  text-decoration: underline;
+}
+.eduTable{
+  table-layout:auto;
+  width: 500px;
+  text-align: left;
+}
+.skillTable{
+  table-layout:auto;
+  width: 500px;
+  text-align: left;
+}
+.workTable{
+  table-layout:auto;
+  width: 500px;
+  text-align: left;
+}
+.topContainer {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.midContainer {
+  position: relative;
+  padding-right: 30%;
+  padding-left: 30%;
+
+}
+
+.botContainer {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.profileImg{
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+}
+.workImg{
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+}
+.skillImg{
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+}
+.educationImg {
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+}
+#x {
+  text-align: right;
+}
+.botContainer a {
+
+    line-height: 32px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.profile-text{
+  text-align: left;
+  line-height: 25px;
+}

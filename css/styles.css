@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -14,9 +15,11 @@ h1 {
 
 h2 {
   color: #66BFBF;
-  margin-top: 20px;
+
   font-family: 'Montserrat', cursive;
+  font-size: 40px;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -25,10 +28,13 @@ h3 {
   font-family: 'Montserrat', cursive;
 }
 p {
-
+  line-height: 2;
 }
-table{
-
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
 }
 th, td {
   padding: 10px;
@@ -36,26 +42,18 @@ th, td {
 
 a{
   color: #11999E;
+  font-family: 'Montserrat', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
 }
 span{
 
   text-decoration: underline;
 }
-.eduTable{
-  table-layout:auto;
-  width: 500px;
-  text-align: left;
-}
-.skillTable{
-  table-layout:auto;
-  width: 500px;
-  text-align: left;
-}
-.workTable{
-  table-layout:auto;
-  width: 500px;
-  text-align: left;
-}
+
 .topContainer {
   background-color: #e3fdfd;
   position: relative;
@@ -63,24 +61,20 @@ span{
 }
 
 .midContainer {
-  position: relative;
-  padding-right: 30%;
-  padding-left: 30%;
+margin: 100px 0;
 
 }
 
 .botContainer {
-  display: block;
-  line-height: 32px;
-  margin-bottom: 20px;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 20px;
 }
 
 .bot-cloud {
@@ -90,35 +84,102 @@ span{
 }
 .profileImg{
   border-radius: 50%;
-  width:200px;
-  height:200px;
-}
-.workImg{
-  border-radius: 50%;
-  width:200px;
-  height:200px;
-}
-.skillImg{
-  border-radius: 50%;
-  width:200px;
-  height:200px;
+  width:25%;
+  float: left;
+
 }
 .educationImg {
   border-radius: 50%;
-  width:200px;
-  height:200px;
+  width:15%;
+  float: left;
+  margin-right: 30px;
 }
-#x {
-  text-align: right;
+.workImg{
+  border-radius: 50%;
+  width:15%;
+  float: left;
+  margin-right:  30px;
 }
-.botContainer a {
+.skillImg{
+  border-radius: 50%;
+  width:15%;
+  float: left;
+  margin-right: 30px;
+}
 
-    line-height: 32px;
-    margin-bottom: 20px;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-}
-.profile-text{
+.profile-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 25px;
+}
+.education-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.work-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-row{
+  width: 50%;
+
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+
+
+.intro{
+  color: #40514E;
+  width: 70%;
+  margin: auto;
+}
+.copyright-text{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', cursive;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px 10px 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
 }

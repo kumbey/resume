@@ -7,7 +7,7 @@ body {
 
 h1 {
   color: #66BFBF;
-  font-size: 90px;
+  font-size: 5.625rem;
   margin-top: 0;
   font-family: 'Sacramento', cursive;
 
@@ -17,7 +17,7 @@ h2 {
   color: #66BFBF;
 
   font-family: 'Montserrat', cursive;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
 }
@@ -29,6 +29,7 @@ h3 {
 }
 p {
   line-height: 2;
+
 }
 hr {
   border: dotted #EAF6F6 6px;
@@ -86,6 +87,7 @@ margin: 100px 0;
   border-radius: 50%;
   width:25%;
   float: left;
+  margin-right: 30px;
 
 }
 .educationImg {
@@ -142,6 +144,10 @@ margin: 100px 0;
   font-size: 0.75rem;
   padding: 20px 0;
 }
+.profile-text{
+  width: 95%;
+  margin: auto;
+}
 
 
 .btn {
@@ -156,7 +162,7 @@ margin: 100px 0;
    border-radius: 8px;
    color: #FFFFFF;
    font-family: 'Montserrat', cursive;
-   font-size: 20px;
+   font-size: 1.25rem;
    font-weight: 100;
    padding: 10px 20px 10px 20px;
    -webkit-box-shadow: 1px 1px 20px 0 #000000;
